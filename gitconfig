@@ -1,0 +1,7 @@
+[user]
+	email = andrew.inscore@gmail.com
+	name = ainscore
+[color]
+    interactive=always
+[alias]
+    s=status
