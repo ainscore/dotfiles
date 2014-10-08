@@ -40,7 +40,7 @@ end
 -- Themes define colours, icons, and wallpapers
 beautiful.init("/usr/share/awesome/themes/default/theme.lua")
 
-theme.wallpaper = "/home/ainscore/Desktop/library.jpg"
+-- theme.wallpaper = "/home/ainscore/Desktop/library.jpg"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
@@ -85,7 +85,8 @@ end
 tags = {}
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
-    tags[s] = awful.tag({ 1, 2, 3, 4, 5, 6, 7, 8, 9 }, s, layouts[1])
+    --tags[s] = awful.tag({ 1, 2, 3, 4, 5, 6, 7, 8, 9 }, s, layouts[1])
+    tags[s] = awful.tag({1}, s, layouts[1])
 end
 -- }}}
 

@@ -1,7 +1,14 @@
 [user]
-	email = andrew.inscore@gmail.com
-	name = ainscore
 [color]
     interactive=always
 [alias]
     s=status
+    ls = log --stat
+    lp = log -p
+    lg = log --decorate --graph
+    a = add -i
+[push]
+	default = simple
+[user]
+	email = andrew.inscore@gmail.com
+	name = Andy Inscore
